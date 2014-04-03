@@ -1,0 +1,10 @@
+<?php
+session_start();
+include_once("security.php");
+include_once("dataclasses.php");
+include_once("mysqlconnection.php");
+include_once("utilities.php");
+include_once("email.php");
+include_once("integrate-recaptcha.php");
+include_once("logger.php");
+?>
