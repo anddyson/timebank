@@ -140,6 +140,11 @@
     padding: 2px 0px;
     overflow:hidden;
   }
+  
+  #banner img
+  {
+  	padding-right:4px;
+  }
 
 /* Main */
 

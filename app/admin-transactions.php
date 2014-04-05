@@ -32,7 +32,7 @@ $(function()
 
 <div id="div-categories-list">
     <h2><img class="middle" src="images/32/exchange.png">&nbsp;History of Exchanges</h2>
-    <div id="transactions-update-progress" class="hidden"><img src="css/images/progress.gif" height="15" />&nbsp;Updating...<br/><br/></div>
+    <div id="transactions-update-progress" class="hidden"><img src="themes/<?php echo $THEME; ?>/css/images/progress.gif" height="15" />&nbsp;Updating...<br/><br/></div>
     <table id="tbl-previous-transactions" class="form-table">
       <tr><th>Id</th><th>Date</th><th>Hours</th><th>From</th><th>To</th><th>For</th><th>Approved?</th></tr>
     </table>

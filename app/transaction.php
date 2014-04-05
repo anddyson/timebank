@@ -234,7 +234,7 @@ $(function()
     <input type="text" id="OtherUserId" name="OtherUserId" class="invisible" />
     <input type="hidden" id="PostId" name="PostId"/>
     <input type="hidden" id="Action" name="Action" value="submit-transaction"/>
-    <span id="transaction-progress" class="hidden"><img src="css/images/progress.gif" height="15" />&nbsp;Updating, please wait...</span>
+    <span id="transaction-progress" class="hidden"><img src="themes/<?php echo $THEME; ?>/css/images/progress.gif" height="15" />&nbsp;Updating, please wait...</span>
     <span class="message" id="transaction-message"></span>
   </fieldset>
 </form>

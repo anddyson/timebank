@@ -371,7 +371,7 @@ $(function()
   <section>
     <div class="modalpopupclose" id="transactions"><input type="button" class="button" value='X' /></div>
      <h2><img class="middle" src="images/32/exchange.png">&nbsp;My Previous Exchanges</h2>
-     <div id="transactions-update-progress" class="hidden"><img src="css/images/progress.gif" height="15" />&nbsp;Updating...<br/><br/></div>
+     <div id="transactions-update-progress" class="hidden"><img src="themes/<?php echo $THEME; ?>/css/images/progress.gif" height="15" />&nbsp;Updating...<br/><br/></div>
     <table id="tbl-previous-transactions" class="form-table">
       <tr><th>Id</th><th>Date</th><th>Hours</th><th>From</th><th>To</th><th>For</th><th>Approved?</th></tr>
     </table>
@@ -404,7 +404,7 @@ $(function()
         <div class="12u">
           <section>
             <div class="left sectionheading"><img class="middle" src="images/32/exchange.png">&nbsp;Confirm Exchanges</div>
-            <div id="notifications-update-progress" class="right hidden"><img src="css/images/progress.gif" height="15" />&nbsp;Updating...<br/><br/></div>
+            <div id="notifications-update-progress" class="right hidden"><img src="themes/<?php echo $THEME; ?>/css/images/progress.gif" height="15" />&nbsp;Updating...<br/><br/></div>
             <div class="clear"></div>
             <br/><br/><br/>
             <ul class="link-list" id="notifications">
@@ -416,7 +416,7 @@ $(function()
         <div class="12u">
           <section>
             <div class="left sectionheading"><img class="middle" src="images/32/message.png">&nbsp;Messages</div>
-            <div id="messages-update-progress" class="right hidden"><img src="css/images/progress.gif" height="15" />&nbsp;Updating...<br/><br/></div>
+            <div id="messages-update-progress" class="right hidden"><img src="themes/<?php echo $THEME; ?>/css/images/progress.gif" height="15" />&nbsp;Updating...<br/><br/></div>
             <div class="clear"></div>
             <br/><br/><br/>
             <button id="messages-button" class="button" disabled="disabled">Inbox</button>
@@ -447,7 +447,7 @@ $(function()
         <div class="12u">
           <section>
             <div class="left sectionheading"><img class="middle" src="images/32/post.png">&nbsp;My Posts</div>
-            <div id="posts-update-progress" class="right hidden"><img src="css/images/progress.gif" height="15" />&nbsp;Updating...<br/><br/></div>
+            <div id="posts-update-progress" class="right hidden"><img src="themes/<?php echo $THEME; ?>/css/images/progress.gif" height="15" />&nbsp;Updating...<br/><br/></div>
             <div class="clear"></div>
             <br/><br/><br/>
             <div id="posts">

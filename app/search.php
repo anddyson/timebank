@@ -250,7 +250,7 @@ $(function()
           &nbsp;&nbsp;&nbsp;
           <button class="button" id="create-post">Create my own post</button>
           <br/><br/>
-          <span id="bookmark-search-progress" class="hidden"><img src="css/images/progress.gif" height="15" />&nbsp;Updating, please wait...</span>
+          <span id="bookmark-search-progress" class="hidden"><img src="themes/<?php echo $THEME; ?>/css/images/progress.gif" height="15" />&nbsp;Updating, please wait...</span>
           <span class="message" id="bookmark-search-message"></span>
         </section>
   </div>
@@ -299,7 +299,7 @@ $(function()
             <input type="hidden" id="DateFrom" name="DateFrom" value=""/>
             <input type="submit" class="button" id="submit-search" value="Search"/>
             &nbsp;&nbsp;
-            <span id="search-progress" class="hidden"><img src="css/images/progress.gif" height="15" />&nbsp;Updating, please wait...</span>
+            <span id="search-progress" class="hidden"><img src="themes/<?php echo $THEME; ?>/css/images/progress.gif" height="15" />&nbsp;Updating, please wait...</span>
             <span class="message" id="search-message"></span>
         </fieldset>
       </form>

@@ -184,7 +184,7 @@ $(function()
 
                   <input type="submit" class="button" id="submit-account-details" value="Update" />
                   &nbsp;&nbsp;
-                  <span id="account-details-progress" class="hidden"><img src="css/images/progress.gif" height="15" />&nbsp;Updating, please wait...</span>
+                  <span id="account-details-progress" class="hidden"><img src="themes/<?php echo $THEME; ?>/css/images/progress.gif" height="15" />&nbsp;Updating, please wait...</span>
                   <span class="message" id="account-details-message"></span>
                 </fieldset>
               </form>
@@ -203,7 +203,7 @@ $(function()
 
                   <input type="hidden" name="Action" value="update-password"/>
                   &nbsp;&nbsp;
-                  <span id="update-password-progress" class="hidden"><img src="css/images/progress.gif" height="15" />&nbsp;Updating, please wait...</span>
+                  <span id="update-password-progress" class="hidden"><img src="themes/<?php echo $THEME; ?>/css/images/progress.gif" height="15" />&nbsp;Updating, please wait...</span>
                   <span class="message" id="update-password-message"></span>
                 </fieldset>
               </form>

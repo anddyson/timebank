@@ -217,7 +217,7 @@ $(function()
     <input type="hidden" id="Id" name="Id" value=""/>
     <input class="button" id="edit-post-submit" type="submit"  value="Create Post"/>
     &nbsp;&nbsp;
-    <span id="edit-post-progress" class="hidden"><img src="css/images/progress.gif" height="15" />&nbsp;Updating, please wait...</span>
+    <span id="edit-post-progress" class="hidden"><img src="themes/<?php echo $THEME; ?>/css/images/progress.gif" height="15" />&nbsp;Updating, please wait...</span>
     <span class="message" id="edit-post-message"></span>
   </fieldset>
 </form>

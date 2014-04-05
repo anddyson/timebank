@@ -51,7 +51,7 @@ function render_stats(stats)
 </script>
 
 <div class="left sectionheading"><img class="middle" src="images/24/star.png">&nbsp;Vital Stats&nbsp;<img class="middle" src="images/24/star.png"></div>
-<div id="stats-update-progress" class="right hidden"><img src="css/images/progress.gif" height="15" /></div>
+<div id="stats-update-progress" class="right hidden"><img src="themes/<?php echo $THEME; ?>/css/images/progress.gif" height="15" /></div>
 <div class="clear"></div>
 <br/><br/>
 <ul class="link-list" id="stats">

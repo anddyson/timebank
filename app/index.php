@@ -136,7 +136,7 @@ function refreshAfterLogout()
           <div class="6u">
             <section>
               <h2>Do yourself a favour!</h2>
-              <img class="left" src="themes/<?php echo $THEME; ?>/images/general/clocks2-200.png" />
+              <img class="left" src="themes/<?php echo $THEME; ?>/images/general/4.png" />
               <p><strong>Levy TimeBank </strong>is a brand new idea in Levenshulme, Manchester to get local people involved in swapping an hour of their time for an hour of some one else's.<p>
         <p><a href="register.php">Sign up</a> to get involved and exchange your time and skills with others in Levenshulme. Everyone's effort is valued equally - as time! Use our site to easily find others to swap with, and keep a record of your time credits.</p>
               <footer class="controls">

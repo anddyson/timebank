@@ -114,7 +114,7 @@ function togglePrintPreview()
             &nbsp;&nbsp;
             <input type="submit" class="button" id="submit-search" value="Display"/>
             &nbsp;&nbsp;
-            <span id="search-progress" class="hidden"><img src="css/images/progress.gif" height="15" />&nbsp;Updating, please wait...</span>
+            <span id="search-progress" class="hidden"><img src="themes/<?php echo $THEME; ?>/css/images/progress.gif" height="15" />&nbsp;Updating, please wait...</span>
             <span class="message" id="search-message"></span>
         </fieldset>
       </form>

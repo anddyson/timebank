@@ -199,7 +199,7 @@ $(function()
       &nbsp;&nbsp;
       <input type="button" class="button" id="cancel-category-edit" value="Cancel"/>
       &nbsp;&nbsp;
-      <span id="category-edit-progress" class="hidden"><img src="css/images/progress.gif" height="15" />&nbsp;Updating, please wait...</span>
+      <span id="category-edit-progress" class="hidden"><img src="themes/<?php echo $THEME; ?>/css/images/progress.gif" height="15" />&nbsp;Updating, please wait...</span>
       <span class="message" id="category-edit-message"></span>
     </fieldset>
   </form>

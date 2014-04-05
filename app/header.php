@@ -37,7 +37,7 @@ include_once("themes/".$THEME."/config/app_config.php");
       <![endif]-->
 
     <link id="print-css" rel="stylesheet" href="themes/<?php echo $THEME; ?>/css/print.css" media="print" />
-    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="shortcut icon" href="themes/<?php echo $THEME; ?>/images/favicon.ico" />
     <script src="js/utilities.js"></script>
     <script src="js/jquery-ui-1.9.2.custom.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
@@ -142,25 +142,15 @@ function isLoggedIn()
           $User = $Users[0];*/
         ?>
           <!--<div id="user-display" style="float:left;padding-right:10px;">Welcome,<br/><b><?php echo $User->FirstName; ?></b></div>-->
-        <?php //} ?>
-        <!-- php this so it just loops through anything that's in the themes/thumbs folder and displays it automatically -->
-            <img src="themes/<?php echo $THEME; ?>/images/thumbs/cringle.jpg" height="50">
-            <img src="themes/<?php echo $THEME; ?>/images/thumbs/timebank-clock.jpg" height="50">
-            <img src="themes/<?php echo $THEME; ?>/images/thumbs/highstreet.jpg" height="50">
-            <img src="themes/<?php echo $THEME; ?>/images/thumbs/stmarks.jpg" height="50">
-            <img src="themes/<?php echo $THEME; ?>/images/thumbs/timebank-door.jpg" height="50">
-            <img src="themes/<?php echo $THEME; ?>/images/thumbs/station.jpg" height="50">
-            <img src="themes/<?php echo $THEME; ?>/images/thumbs/inspire.jpg" height="50">
-            <img src="themes/<?php echo $THEME; ?>/images/thumbs/temple.jpg" height="50">
-            <img src="themes/<?php echo $THEME; ?>/images/thumbs/timebank-shopping.jpg" height="50">
-            <img src="themes/<?php echo $THEME; ?>/images/thumbs/street.jpg" height="50">
-            <img src="themes/<?php echo $THEME; ?>/images/thumbs/bluebell.jpg" height="50">
-            <img src="themes/<?php echo $THEME; ?>/images/thumbs/market.jpg" height="50">
-            <img src="themes/<?php echo $THEME; ?>/images/thumbs/timebank-painting.jpg" height="50">
-            <img src="themes/<?php echo $THEME; ?>/images/thumbs/alley.jpg" height="50">
-            <img src="themes/<?php echo $THEME; ?>/images/thumbs/highfield.jpg" height="50">
-            <img src="themes/<?php echo $THEME; ?>/images/thumbs/baths.jpg" height="50">
-            <img src="themes/<?php echo $THEME; ?>/images/thumbs/library.jpg" height="50">
+        <?php //} 
+
+		//show all the image files from the thumbs directory, in a randomly different order each time
+		$arr = glob("themes/".$THEME."/images/thumbs/".'*');
+		shuffle($arr);
+		foreach($arr as $filename){
+    		echo '<img src="'.$filename.'" height="50">';
+		}
+        ?>
         </div>
 
     <!-- main page enclosing -->

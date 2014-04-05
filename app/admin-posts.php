@@ -148,7 +148,7 @@ $(function()
             &nbsp;&nbsp;
             <input type="submit" class="button" id="moderate-submit-search" value="Display"/>
             &nbsp;&nbsp;
-            <span id="moderate-search-progress" class="hidden"><img src="css/images/progress.gif" height="15" />&nbsp;Updating, please wait...</span>
+            <span id="moderate-search-progress" class="hidden"><img src="themes/<?php echo $THEME; ?>/css/images/progress.gif" height="15" />&nbsp;Updating, please wait...</span>
             <span class="message" id="moderate-search-message"></span>
         </fieldset>
       </form>

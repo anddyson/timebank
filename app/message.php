@@ -296,7 +296,7 @@ $(function()
     <br/><br/>
     <input class="button" id="edit-message-submit" type="submit"  value="Send"/>
     &nbsp;&nbsp;
-    <span id="edit-message-progress" class="hidden"><img src="css/images/progress.gif" height="15" />&nbsp;Updating, please wait...</span>
+    <span id="edit-message-progress" class="hidden"><img src="themes/<?php echo $THEME; ?>/css/images/progress.gif" height="15" />&nbsp;Updating, please wait...</span>
     <span class="message" id="edit-message-message"></span>
     <input type="text" id="ReceiverId" name="ReceiverId" class="invisible"/>
     <input type="hidden" id="edit-message-action" name="Action" value="create-message"/>
