@@ -2,7 +2,7 @@
 //ini_set('display_errors',1); //DEBUGGING MODE
 ob_start(); //don't send headers to the browser straight away, in case we want to redirect (e.g. for login)
 
-$THEME = "stockport"; //move this to db eventually
+$THEME = "default"; //move this to db eventually
 include_once("themes/".$THEME."/config/app_config.php");
 
 ?>
